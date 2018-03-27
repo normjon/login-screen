@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Pearson Login</title>
+</head>
+<body>
+
+    <div id="container">
+      <div id="overlay"></div>
+      <div class="form" id="login-form">
+        <div id="img-header"></div>
+        <h3 id="flagfail"></h3>
+          <div class="group">
+              <input type="text" id="login-user" name="username"><span class="highlight"></span><span class="bar"></span>
+              <label>Username</label>
+          </div>
+          <div class="group">
+              <input type="password" id="login-password" name="password"><span class="highlight"></span><span class="bar"></span>
+              <label>Password</label>
+          </div>
+          <button id="login-button" class="button buttonBlue">Login
+            <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+          </button>
+          <a id="reset-password-link">forgot password</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var env = '<<APP_ENV>>';
+    </script>
+    <script src="bundle.js"></script>
+
+</body>
+</html>
+
